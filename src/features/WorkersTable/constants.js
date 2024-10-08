@@ -1,7 +1,6 @@
 import {
   createColumnHelper,
 } from '@tanstack/react-table'
-
 export const WORKERS_DATA = [
   {
 		avatar: require('../../image/1.png'),
@@ -37,7 +36,6 @@ export const WORKERS_DATA = [
   },
 ]
 const columnHelper = createColumnHelper()
-
 export const WORKERS_TABLE_COLUMNS = [
   columnHelper.accessor('employee', {
 		header: () => 'Сотрудники',
@@ -69,6 +67,4 @@ export const WORKERS_TABLE_COLUMNS = [
     cell: info => info.renderValue(),
     footer: info => info.column.id,
   }),
-  
-  
 ]

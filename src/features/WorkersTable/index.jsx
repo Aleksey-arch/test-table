@@ -1,24 +1,17 @@
 import * as React from 'react'
-
 import classes from './index.module.css'
-
 import {
-  createColumnHelper,
   flexRender,
   getCoreRowModel,
   useReactTable,
 } from '@tanstack/react-table'
-
 import { WORKERS_DATA, WORKERS_TABLE_COLUMNS } from "./constants"
-
 export const WorkersTable = () => {
-
   const table = useReactTable({
     data: WORKERS_DATA,
     columns: WORKERS_TABLE_COLUMNS,
     getCoreRowModel: getCoreRowModel(),
   })
-
   return (
     <div className={classes.container}>
       <table className={classes.table}>
@@ -35,8 +28,7 @@ export const WorkersTable = () => {
                       )}
                 </th>
               ))}
-            </tr>
-						
+            </tr>	
           ))}
         </thead>
         <tbody>
