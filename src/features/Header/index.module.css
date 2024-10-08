@@ -1,0 +1,149 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+
+.header {
+	background-color: #ffffff;
+	border-radius: 17px;
+	display: flex;
+	justify-content: space-between;
+	padding: 19px 18px;
+	margin-bottom: 33px;
+}
+.container {
+	
+	
+}
+.heading h1 {
+	font-size: 20px;
+	font-weight: 700;
+	
+	margin-bottom: 7px;
+}
+.container_heading p {
+	
+	font-size: 12px;
+	font-weight: 400;
+	color: #949CAC;
+}
+
+
+.container_calendar {
+	display: flex;
+}
+.calendar_day {
+	display: flex;
+	flex-direction: row;
+	min-width: 105px;
+	height: 38px;
+	margin: auto 0;
+	margin-right: 35px;
+}
+.calendar_day div{
+	align-content: center;
+	background-color: #f1f4f8;
+	border-left: 1px solid #d4d9e1;
+	border-right: 1px solid #d4d9e1;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.calendar_day div span{
+	font-size: 13px;
+}
+
+.calendar_day_btn__left {
+	background-color: #f1f4f8;
+	background-image: url('../../image/header/btn-left.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 7px 0 0 7px;
+	min-width: 34px;
+	height: 38px;
+}
+.calendar_day_btn__right{
+	background-color: #f1f4f8;
+	background-image: url('../../image/header/btn-right.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	border-radius: 0 7px 7px 0;
+	min-width: 34px;
+	height: 38px;
+}
+
+.calendar_week {
+	background-color: #f1f4f8;
+	border-radius: 7px;
+	padding: 12px 27px;
+	height: 38px;
+	margin: auto 0;
+	margin-right: 17px;
+}
+.calendar_month {
+	background-color: #f1f4f8;
+	border-radius: 7px;
+	padding: 12px 27px;
+	height: 38px;
+	margin: auto 0;
+	margin-right: 17px;
+}
+.calendar_year {
+	background-color: #f1f4f8;
+	border-radius: 7px;
+	padding: 12px 27px;
+	height: 38px;
+	margin: auto 0;
+	margin-right: 25px;
+}
+.calendar_select_period {
+	background-color: #252F40;
+	color: #ffffff;
+	border-radius: 7px;
+	padding: 12px 27px;
+	height: 38px;
+	margin: auto 0;
+	line-height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

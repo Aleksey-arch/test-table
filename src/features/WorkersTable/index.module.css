@@ -1,0 +1,92 @@
+body {
+	background-color: #f1f4f8;
+	padding: 20px;
+}
+
+.poppins {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+
+}
+
+
+.table {
+	width: 100%;
+	border: none;
+	border-collapse: collapse;
+}
+.table thead tr {
+	border-bottom: 1px solid #d7d8da;
+}
+.table tbody tr {
+	
+	border-top: 1px solid #f1f4f8;
+}
+.table tbody tr:nth-child(1) {
+	border-top: none;
+}
+
+
+
+.row {
+	padding: 20px 20px;
+
+}
+
+.row td {
+	text-align: left;
+
+}
+
+.row td:nth-child(1) {
+	font-weight: 700;
+
+}
+
+.cell {
+	font-size: 16px;
+	padding: 19px 0;
+}
+
+.container {
+	background-color: #ffffff;
+	padding: 0 41px;
+	border-radius: 17px;
+}
+
+.header {
+	font-size: 13px;
+	color: #788398;
+}
+
+.headerGroup {
+	border: none;
+	border-bottom: 1px solid red;
+}
+
+.headerGroup th {
+	text-align: left;
+	padding: 15px 0;
+}
+
+.headerGroup th:nth-child(1) {
+	width: 40%;
+}
+
+.headerGroup th:nth-child(2) {
+	width: 15%;
+}
+
+.headerGroup th:nth-child(3) {
+	width: 15%;
+}
+
+.headerGroup th:nth-child(4) {
+	width: 15%;
+}
+
+.headerGroup th:nth-child(5) {
+	width: 15%;
+}
